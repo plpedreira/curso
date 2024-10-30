@@ -1,8 +1,52 @@
+/* backgroud color */
 h1{
     color: red;
 }
 
-#exclusive-title {
+    #exclusive-title {
     background-color: aqua;
     color: coral;
+}
+
+/* HEX */
+    .simple-hex {
+    color: #777
+    }
+
+    .simple-hex-2 {
+    color: #a5f
+    }
+
+/* RGB Mixed */
+.rgb{
+    color: rgb(155, 75, 86)
+}
+
+/* RGBA */
+.rgba {
+        color: rgba(165, 78, 180, 0.3)
+}
+
+/* HSL */
+.hsl{
+    color: hsl(70, 50%, 20%)
+}
+
+/*Backgroud Opacity*/
+.bg-opacity{
+    background-color: green;
+    color: yellow;
+    opacity: 0.2;
+}
+
+/* RGBA com opacidade */
+.rgba-opacity{
+    background-color: rgba(190, 20, 120, 0.2);
+    color: black;
+}
+
+/* bg image */
+.bg-image{
+    background-image: url("../img/Paisagem-1.jpg");
+    color: rgb(152, 152, 152);
 }
