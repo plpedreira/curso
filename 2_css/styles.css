@@ -51,3 +51,132 @@ h1{
     background-image: url("../img/Paisagem-1.jpg");
     color: rgb(152, 152, 152);
 }
+
+/* centralizando bg image */
+.not-centered-bg,
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url(../img/Paisagem-1.jpg);
+}
+
+.centered-bg{
+    background-position: center;
+    background-size: cover;
+}
+
+/* Heigth and width */
+.height-width{
+    height: 200px;
+    width: 100px;
+    background-color: #888;
+}
+
+.height-width2{
+    height: 300px;
+    background-color: #aaa;
+}
+
+/* padding */
+.withoutpadding,
+.withpadding {
+    background-color: #111;
+    color: #fff;
+}
+
+.withpadding{
+    background-color: #ccc;
+    padding: 20px;
+}
+/* tambem exite paddings individuais para que voce possa modelar da sua fomra como padding-top e etc */
+
+/* Shorthand padding */
+.shorthand-padding{
+    background-color: aquamarine;
+    padding: 6px 12px 18px 24px;
+}
+
+/* borda arredondada  */
+.borda-arredondada{
+    border: 4px solid blue;
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* margem */
+.margin{
+    margin: 10px;
+    background-color:#666 ;
+}
+
+/* box model */
+.box-model{
+margin: 20px;
+padding: 15px 25px;
+border: 3px solid #845;
+width: 200px;
+height: 300px;
+}
+
+/* text alignment */
+.text-alignment{
+    text-align: right;   
+}
+
+.text-align{
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
+
+/* text decoration */
+.underlin{
+    text-decoration: underline;
+}
+
+.line-trough{
+    text-decoration: line-through;    
+}
+
+.remove-underline{
+    text-decoration: none;
+    color: red;
+}
+
+/* letter spacing */
+.spacing{
+    letter-spacing: 5px;
+}
+
+/* fonte */
+.serif{
+    font-family: Georgia;
+
+}
+
+.sans-serif{
+    font-family: Helvetica;
+}
+
+.monospace{
+    font-family: monospace ;
+}
+
+.cusive{
+    font-family: cursive;
+}
+
+.fantasy{
+    font-family: fantasy;
+}
+
+/* text style */
+.ialic{
+    font-style: italic;
+}
+
+.oblique{
+    font-style: oblique;
+}
