@@ -230,3 +230,64 @@ h1 {
     width: 100px;
     height: 100px;
 }
+
+/* relative - o ruim de usar ele é que ele n segue o mesmo fluxo do html  */
+.relative{
+    position:relative;
+    background-color: #391;
+    color: #aaa ;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 70px;
+}
+
+/* Absolute */
+.absolute{
+    position:absolute;
+    background-color: #232;
+    color: #aaa ;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+/* absolute e relative */
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute1,
+.absolute2{
+    width: 50px;
+    height: 50px;
+    background-color: #463;
+    position: absolute;
+}
+
+.absolute1{
+    top: 10px;
+    left: 10px;
+}
+
+.absolute2{
+    bottom: 10px;
+    right: 10px;
+}
+
+/* fixed */
+.fixed{
+    width: 100px;
+    height: 100px;
+    border: 1px solid purple;
+    margin-top: 120px;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+}
+
