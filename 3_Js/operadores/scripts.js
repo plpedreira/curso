@@ -16,11 +16,18 @@ console.log(typeof -Infinity);
 console.log(12 * "aaa");
 console.log(typeof NaN);
 
-//4 - Strings
+// 4 - Strings
 console.log("Texto");
 console.log("Mais um Texto");
 console.log(typeof"19");
 
-// Símbolos especiais em string
+// 5 - Símbolos especiais em string
 console.log("text em \n Duas linhas");
-console.log("Espaçamento de \t TAB")
+console.log("Espaçamento de \t TAB");
+
+// 6 - Concatenação
+console.log("oi, " + " tudo " + " bem?");
+
+// 7 - Interpolação
+console.log(`A soma de 2 + 2 é: ${2 + 2}`);
+console.log(`Podemos executar qualquer coisa aqui ${console.log("Teste")}`);
