@@ -31,3 +31,26 @@ console.log("oi, " + " tudo " + " bem?");
 // 7 - Interpolação
 console.log(`A soma de 2 + 2 é: ${2 + 2}`);
 console.log(`Podemos executar qualquer coisa aqui ${console.log("Teste")}`);
+
+// 8 - Booleans
+console.log(true);
+console.log(false);
+console.log(5 > 20);
+console.log(30 > 10);
+console.log(typeof false);
+
+// 9 - comparação
+console.log(9 == "9");
+console.log(9 === "9");
+console.log(9 != "9");
+console.log(9 !== "9");
+
+//10 - Operadores lógicos
+console.log(true && true);
+console.log(true && false);
+console.log(5 > 2 && 2 < 10);
+console.log(5 > 2 && "Pedro" === 1);
+console.log(5 > 2 || "Pedro" === 1);
+console.log(5 < 2 || 5 > 100);
+console.log(!true);
+console.log(!5 > 2);
