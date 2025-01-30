@@ -67,3 +67,8 @@ html{
     font-weight: bold;
     text-align: center;
 }
+
+.moreinfo-container{
+    margin: 25px;
+    padding: 10px;
+}
