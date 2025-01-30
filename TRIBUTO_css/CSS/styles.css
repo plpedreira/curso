@@ -35,4 +35,35 @@ html{
     padding: 25px ;
     margin: 25px ;
     border-top: 1px dashed #ddd ;
+    border-bottom: 1px dashed #ddd;
+}
+
+.quotes-container{
+    background-color: #ddd;
+    padding: 30px;
+}
+
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p {
+    font-style: italic;
+}
+
+.curiosities-container{
+    padding: 25px;
+    margin: 25px;
+    border-top: 1px dashed #ddd;
+    border border-bottom: 1px dashed #ddd;
+}
+
+.curiosities-container li {
+    height: 50px;
+}
+
+.img-bold{
+    font-weight: bold;
+    text-align: center;
 }
