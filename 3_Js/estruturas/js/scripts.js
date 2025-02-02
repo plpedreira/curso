@@ -20,10 +20,36 @@ let a = 10,
 console.log (a, b, c);
 
 const nomecompleto = "Pedro Lucas";
-const nomecompleto = "João Victor";
+
+const nomeCompleto = "João Victor";
 
 console.log(nomecompleto);
-console.log(nomecompleto);
+console.log(nomeCompleto);
 
 let _teste = "ok";
 let $teste = "ok";
+
+// 3 - prompt
+const age = prompt("Digite a sua idade:");
+
+console.log(`você tem ${age} anos.`);
+
+// 4 - alert
+alert("testando");
+
+z = 10
+alert(`numero é igual a ${z}`)
+
+// 5 - Math
+console.log(Math.max(5, 2, 1, 10));
+
+console.log(Math.floor(5,40));
+
+console.log(Math.ceil(5, 14));20
+
+// 6 -  cosnole
+console.log("teste!");
+
+console.error("erro!");
+
+console.warn("aviso!");
