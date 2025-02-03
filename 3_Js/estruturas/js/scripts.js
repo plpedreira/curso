@@ -53,3 +53,29 @@ console.log("teste!");
 console.error("erro!");
 
 console.warn("aviso!");
+
+// 7 - if
+const m = 10;
+
+if(m > 5){
+
+    console.log("M é maior que 5!")
+
+}
+
+const user = "João"
+
+if(user === "João"){
+
+    console.log("o nome do usuario é joão");
+
+}
+
+if(user === "Isabella"){
+
+    console.log("o nome do usuario é Isabella");
+
+}
+
+console.log(user === "João", user === "Isabella");
+
