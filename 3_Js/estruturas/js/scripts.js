@@ -90,7 +90,27 @@ if(loggedIn) {
 const q = 10
 const w = 15
 if(q > 5 && w >20) {
-console.log("Números mais altos!")
+console.log("Números mais altos!");
 } else{
-    console.log("os Números não são mais altos!")
+    console.log("os Números não são mais altos!");
+}
+
+// 9 -elif
+if(1 > 2){
+    console.log("teste");
+} else if(2 > 3) {
+    console.log("teste 2");
+} else if(5 > 1) {
+    console.log ("agora sim");
+}
+
+const userName = "Pedro"
+const userAge = 20
+
+if(userName === "José") {
+    console.log("bem vindo Joés!");
+} else if (userName === "Pedro" && userAge === 20) {
+    console.log("Bem vindo Pedro!");
+} else {
+    console.log("Alguma condição não foi atingida !");
 }
