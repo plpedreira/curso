@@ -147,3 +147,23 @@ let r = 10;
 for (r; r > 0; r = r - 1) {
     console.log(`o r está diminuindo ${r}`);
 }
+
+// 14 - break
+for( let g = 20; g > 10; g--) {
+    console.log(`O valor de g é: ${g}`);
+
+    if(g === 12) {
+        console.log("o g é 20!");
+        break;
+    }
+}
+
+for(let c = 15; c > 5; c--){
+    console.log(`o c é: ${c}`);
+
+    if(c === 10) {
+        console.log("o c é 10!");
+        break
+    }
+}
+
