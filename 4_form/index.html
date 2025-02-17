@@ -1,22 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 
- <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
- </head>
+</head>
 
- <body>
-<h2>Formulário HTML</h2>
-<form>
-<div>
-    <label>Nome:</label>
-    <input type="text"/>
-</div>
-
-</form>
- </body>
+<body>
+    <h2>Formulário HTML</h2>
+    <!-- 1 - fomrulario -->
+     <!-- 2 - atributos -->
+<form action="register.php" method="post">
+        <div>
+            <label>Nome:</label>
+            <input type="text" />
+        </div>
+        <!-- 3 - atributo name -->
+        <div>
+            <!-- 4 - atributo label -->
+            <label for="age">idade:</label>
+            <input type="text" name="age">
+        </div>
+        <!-- 6 - select -->
+         <div>
+            <label for="job">selecione a sua profissão</label>
+            <select name="job">
+                <option value="hidden"></option>
+                <option value="programador">Programador</option>
+                <option value="tester">Tester/QA</option>
+                <option value="deveops">DevOps</option>
+            </select>
+         </div>
+         <!-- 7 - abritubto selected -->
+          <div>
+            <label for="contract">Você leu os termos do contrato?</label>
+            <select name="contract">
+                <option value="hidden"></option>
+                <option value="sim">Sim</option>
+                <option value="nao" selected>Não</option>
+            </select>
+          </div>
+          <!-- 8 - multiplas opções -->
+           <div>
+            <label for="items">Selecione os itens desejados </label>
+            <select name="itens" multiple>
+                <option value="cereja">Cereja</option>
+                <option value="suco">Suco</option>
+                <option value="milho">Milho</option>
+                <option value="feijao">Feijão</option>   
+            </select>
+           </div>
+           <!-- 9 - text area -->
+            <div>
+                <label for="comment">Escreva abaixo oque voê achou desse poste:</label>
+                <textarea name="comment"></textarea>
+            </div>
+         <!-- 5 - envio de form -->
+         <input type="submit" value="enviar"/>
+    </form>
+</body>
 
 </html>
