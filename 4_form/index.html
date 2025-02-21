@@ -57,6 +57,53 @@
                 <label for="comment">Escreva abaixo oque voê achou desse poste:</label>
                 <textarea name="comment"></textarea>
             </div>
+            <!-- 10  - fieldset e legend-->
+             <div>
+                <fieldset>
+                    <legend>Preencha as suas informações</legend>
+                    <label for="firstname">Nome:</label>
+                    <input type="text" name="firstname">
+                    <label for="lastname">Sobrenome:</label>
+                    <input type="text" name="lastname">
+                </fieldset>
+             </div>
+             <!-- 11 - datalist -->
+              <div>
+                <label for="flavor"> Escolha o sabor:</label>
+                <input type="text" list="flavor" name="flavor">
+
+                <datalist id="flavor">
+                    <option value="Cereja"></option>
+                    <option value="Morango"></option>
+                    <option value="Abacaxi"></option>
+                    <option value="Chocolate"></option>
+                </datalist>
+              </div>
+              <!-- 12 - input password -->
+               <div>
+                <label for="password">Digite a sua senha:</label>
+                <input type="password" name="password">
+               </div>
+               <!-- 14 - radio button -->
+                <div>
+                    <label for="car_model">Escolha o modelo do seu carro:</label>
+                    <div class="radio">
+                        <input type="radio"  value="bmw" name="car_model">
+                        <label for="bmw">BMW</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio"  value="ferrari" name="car_model">
+                        <label for="ferrari">Ferrari</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio"  value="fiat" name="car_model">
+                        <label for="fiat">Fiat</label>
+                    </div>
+                </div>
+               <!-- 13 - input reset -->
+                <div>
+                    <input type="reset" value="limpar">
+                </div>
          <!-- 5 - envio de form -->
          <input type="submit" value="enviar"/>
     </form>
