@@ -25,68 +25,77 @@
                 <form>
                     <div class="box-input">
                         <label for="title">Título do anúcio <span class="required-field">*</span></label>
-                        <input type="text"
-                         name="title"
-                          id="title"
-                         class="block"
-                            placeholder="um titulo para anunciar o seu carro" 
-                            minlength="1" 
-                            maxlength="30"
-                            required>
+                        <input type="text" name="title" id="title" class="block"
+                            placeholder="um titulo para anunciar o seu carro" minlength="1" maxlength="30" required>
                     </div>
-                    
+
                     <div class="box-input">
                         <label for="price">preço <span class="required-field">*</span></label>
-                        <input 
-                        type="number"
-                         name="price"
-                          id="price"
-                         class="block"
-                            placeholder="Defina o preço" 
+                        <input type="number" name="price" id="price" class="block" placeholder="Defina o preço"
                             required>
                     </div>
                     <div class="box-input">
                         <label for="description">Descrição <span class="required-field">*</span></label>
-                       <textarea name="description" id="description" class="block" placeholder="Aqui voê coloca os detalhes do veículo como por exemplo se ele tem algum arranhão"></textarea>
+                        <textarea name="description" id="description" class="block"
+                            placeholder="Aqui voê coloca os detalhes do veículo como por exemplo se ele tem algum arranhão"></textarea>
                     </div>
                     <div class="box-input">
                         <label for="brand">Marca <span class="required-field">*</span></label>
-                        <input 
-                        type="text"
-                         name="brand"
-                          id="brand"
-                         class="block"
-                            placeholder="Digite a marca do veículo" 
+                        <input type="text" name="brand" id="brand" class="block" placeholder="Digite a marca do veículo"
                             required>
                     </div>
                     <div class="box-input">
                         <label for="model">Modelo <span class="required-field">*</span></label>
-                        <input 
-                        type="text"
-                         name="model"
-                          id="model"
-                         class="block"
-                            placeholder="Digite o modelo do veículo" 
-                            required>
+                        <input type="text" name="model" id="model" class="block"
+                            placeholder="Digite o modelo do veículo" required>
                     </div>
                     <div class="box-input">
                         <label for="mileage">Kilimetragem <span class="required-field">*</span></label>
-                        <input 
-                        type="number"
-                         name="mileage"
-                          id="mileage"
-                         class="block"
-                            placeholder="Digite a kilometragem do veículo" 
-                            required>
+                        <input type="number" name="mileage" id="mileage" class="block"
+                            placeholder="Digite a kilometragem do veículo" required>
                     </div>
                     <div class="box-input">
                         <label for="purchase_date">Data de compra <span class="required-field">*</span></label>
-                        <input 
-                        type="date"
-                         name="purchase_date"
-                          id="purchase_date"
-                         class="block" 
-                            required>
+                        <input type="date" name="purchase_date" id="purchase_date" class="block" required>
+                    </div>
+                    <div class="box-input">
+                        <p>Tipo de câmbio <span class="required-field">*</span>></p>
+                        <input type="radio" id="manual" name="gear">
+                        <label for="manual">manual</label>
+                        <input type="radio" id="auto" name="gear">
+                        <label for="auto">Automático</label>
+                    </div>
+                    <div class="optional-box">
+                        <p>opcionais</p>
+                        <ul class="optional-list"></ul>
+                        <li>
+                            <input type="checkbox" 
+                            id="airbag" 
+                            name="optional[]" 
+                            value="airbag">
+                        </li>
+                        <label for="alarm">Airbag</label>
+                        <li>
+                            <input type="checkbox" 
+                            id="alarm" 
+                            name="optional[]" 
+                            value="alarm">
+                        </li>
+                        <label for="alarm">Alarme</label>
+                        <li>
+                            <input type="checkbox" 
+                            id="ac" 
+                            name="optional[]" 
+                            value="ac">
+                        </li>
+                        <label for="reverse_camera">ar condicionado</label>
+                        <li>
+                            <input type="checkbox" 
+                            id="reverse_camera" 
+                            name="optional[]" 
+                            value="reverse_camera">
+                        </li>
+                        <label for="reverse_camera">Camera de ré</label>
                     </div>
                     <input type="submit" value="Enviar">
                 </form>
