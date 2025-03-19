@@ -74,7 +74,7 @@
                             name="optional[]" 
                             value="airbag">
                         </li>
-                        <label for="alarm">Airbag</label>
+                        <label for="airbag">Airbag</label>
                         <li>
                             <input type="checkbox" 
                             id="alarm" 
@@ -88,7 +88,7 @@
                             name="optional[]" 
                             value="ac">
                         </li>
-                        <label for="reverse_camera">ar condicionado</label>
+                        <label for="ac">ar condicionado</label>
                         <li>
                             <input type="checkbox" 
                             id="reverse_camera" 
@@ -97,7 +97,52 @@
                         </li>
                         <label for="reverse_camera">Camera de ré</label>
                     </div>
-                    <input type="submit" value="Enviar">
+                    <div class="optional-box">
+                        <ul class="optional-list"></ul>
+                        <li>
+                            <input type="checkbox" 
+                            id="lane_assist" 
+                            name="optional[]" 
+                            value="lane_assist">
+                        </li>
+                        <label for="lane_assist">Assistente de pista</label>
+                        <li>
+                            <input type="checkbox" 
+                            id="keylass" 
+                            name="optional[]" 
+                            value="keylass">
+                        </li>
+                        <label for="keylass">Partida keylass</label>
+                        <li>
+                            <input type="checkbox" 
+                            id="smartphone" 
+                            name="optional[]" 
+                            value="smartphone">
+                        </li>
+                        <label for="smartpphone">Integração com calular </label>
+                        <li>
+                            <input type="checkbox" 
+                            id="leather_seat" 
+                            name="optional[]" 
+                            value="leather_seat">
+                        
+                        <label for="leather_seat">Banco de couro</label>
+                    </li>
+                </ul>
+                    </div>
+                    <div class="box_input">
+                        <p>Fotos do carro: <span class="required-field">*</span></p>
+                        <input type="file" 
+                        multiple 
+                        accept="image/.png, image/jpg"
+                        id="images"
+                        name="images"
+                        required/>
+
+                    </div>
+                    
+                    <input type="submit" value="Enviar" class="btn-submit">
+                    <input type="reset" value="Limpar" class="btn-clear">
                 </form>
             </div>
         </div>
