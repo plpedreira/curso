@@ -167,3 +167,31 @@ for(let c = 15; c > 5; c--){
     }
 }
 
+// 15 - copntinue
+
+for(let s = 1; s < 10; s = s + 1) {
+    // operador de resto = %
+    if( s % 2 === 0) {
+        console.log("Numero par!")
+        continue;
+    }
+    
+    console.log(s);
+}
+
+// 16 - switch
+const job ="Advogado"
+
+switch(job) {
+    case "Programador":
+        console.log("Voce e um programador")
+        break
+    case "Advogado":
+        console.log("Voce e um advogado")
+        break
+    case "Engenheiro":
+        console.log("Voce e um engenheiro")
+        break
+    default:
+    console.log("Profissao nao encontrada")
+}
