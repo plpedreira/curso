@@ -111,3 +111,30 @@ console.log(raizQuadrada2(5));
 const helloWorld = () => console.log("Hello world")
 
 helloWorld();
+
+// 7 - parametro opcional
+
+const multiplication = function(m, n) {
+    if( n === undefined){
+        return m * 2
+    } else{
+       return m * n
+    }
+}
+
+console.log(multiplication(5));
+
+console.log(multiplication(2, 4));
+
+const greeeting = (name) => {
+    if(!name) {
+        console.log("Ola!");
+        return
+    }
+
+    console.log(`Ola ${name}!`)
+}
+
+greeeting()
+
+greeeting("Pedro")
