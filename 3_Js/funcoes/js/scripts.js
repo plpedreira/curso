@@ -138,3 +138,22 @@ const greeeting = (name) => {
 greeeting()
 
 greeeting("Pedro")
+
+// 8 - valor defoult
+const customGreeting = (name, greet ="Ola") => {
+    return`${greet}, ${name}!`
+}
+
+console.log(customGreeting("Pedro"))
+
+console.log(customGreeting("Jadson" , "Bom dia"))
+
+const repeatText = (text, repeat = 2) => {
+    for(let i = 0; i < repeat; i++){
+        console.log(text)
+    }
+}
+
+repeatText("Testando");
+
+repeatText("Agora repete 5 vezes", 5);
