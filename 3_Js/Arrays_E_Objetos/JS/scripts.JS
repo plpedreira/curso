@@ -1,32 +1,43 @@
-// 1 - Array
+// // 1 - Array
 
-const lista = [1 , 2, 3, 4, 5];
+// const lista = [1 , 2, 3, 4, 5];
 
-console.log(lista)
+// console.log(lista)
 
-console.log(typeof lista)
+// console.log(typeof lista)
 
-const itens = ["Pedro", true, 2, 3.12, [], {}]
+// const itens = ["Pedro", true, 2, 3.12, [], {}]
 
-console.log(itens)
+// console.log(itens)
 
-// 2 - Mais sobre arrays
-const arr = ["a", "b", "c", "d", "e"]
+// // 2 - Mais sobre arrays
+// const arr = ["a", "b", "c", "d", "e"]
 
-console.log(arr[0])
+// console.log(arr[0])
 
-console.log(arr[78])
+// console.log(arr[78])
 
-console.log(arr[2])
+// console.log(arr[2])
 
-// 3 - propriedades
+// // 3 - propriedades
 
-const numbers= [5, 3, 2];
+// const numbers= [5, 3, 2];
 
-console.log(numbers.length);
+// console.log(numbers.length);
 
-console.log(numbers["length"]);
+// console.log(numbers["length"]);
 
-const myName = "Pedro"
+// const myName = "Pedro"
 
-console.log(myName.length)
+// console.log(myName.length)
+
+// elif
+let age = 8
+if (age >= 18) {
+    console.log("Você é maior de idade")
+}
+else if (age >= 12 && age < 18) {
+    console.log("Você é adolescente")
+} else {
+  console.log("Você é criança")
+}
